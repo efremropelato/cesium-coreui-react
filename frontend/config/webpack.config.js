@@ -7,7 +7,7 @@ const webpack = require('webpack');
 const resolve = require('resolve');
 const PnpWebpackPlugin = require('pnp-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopywebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -292,12 +292,11 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
-      new CopywebpackPlugin([ { from: path.join(cesiumSource, cesiumWorkers), to: 'Workers' } ]),
-      new CopywebpackPlugin([ { from: path.join(cesiumSource, 'Assets'), to: 'Assets' } ]),
-      new CopywebpackPlugin([ { from: path.join(cesiumSource, 'Widgets'), to: 'Widgets' } ]),
-      new webpack.DefinePlugin({
-        CESIUM_BASE_URL: JSON.stringify('')
-      }),
+      new CopyWebpackPlugin([
+              {from: './public/Cesium', to: 'Cesium'},
+          ],
+          {copyUnmodified: false}
+      ),
       new HtmlWebpackPlugin(
         Object.assign(
           {},

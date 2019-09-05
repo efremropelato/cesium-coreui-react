@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "node --inspect .",
     "posttest": "npm run lint && npm audit"
   },
   "dependencies": {
