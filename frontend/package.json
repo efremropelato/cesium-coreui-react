@@ -1,16 +1,7 @@
 {
   "name": "cesium-coreui-react",
-  "version": "2.6.0",
-  "description": "Demo template with Cesiumjs, Coreui & Reactjs",
-  "author": "Efrem Ropelato",
-  "homepage": "https://efremropelato.github.io/",
-  "copyright": "Copyright (c) 2019 Efrem Ropelato",
-  "license": "MIT",
+  "version": "1.0.1",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/efremropelato/cesium-coreui-react.git"
-  },
   "dependencies": {
     "@babel/core": "7.4.3",
     "@coreui/coreui": "^2.1.12",
@@ -33,14 +24,6 @@
     "dotenv-expand": "4.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "eslint": "^5.16.0",
-    "eslint-config-react-app": "^4.0.1",
-    "eslint-loader": "2.1.2",
-    "eslint-plugin-flowtype": "2.50.1",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.12.4",
-    "eslint-plugin-react-hooks": "^1.5.0",
     "file-loader": "3.0.1",
     "flag-icon-css": "^3.3.0",
     "font-awesome": "^4.7.0",
@@ -107,7 +90,15 @@
     "babel-plugin-named-asset-import": "^0.3.3",
     "babel-plugin-react-transform": "^3.0.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-react-app": "^9.0.1"
+    "babel-preset-react-app": "^9.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0"
   },
   "scripts": {
     "start": "NODE_OPTIONS='--max-old-space-size=4096' node scripts/start.js",
@@ -115,9 +106,6 @@
     "test": "node scripts/test.js",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand"
-  },
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
   "eslintConfig": {
     "extends": "react-app"
