@@ -1,0 +1,13 @@
+{   
+  "demo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "DEMO",
+    "password": "",
+    "name": "demo",
+    "user": "",
+    "connector": "mongodb",
+    "useNewUrlParser": true
+  }
+}
