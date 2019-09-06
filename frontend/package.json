@@ -1,16 +1,7 @@
 {
   "name": "cesium-coreui-react",
-  "version": "2.6.0",
-  "description": "Demo template with Cesiumjs, Coreui & Reactjs",
-  "author": "Efrem Ropelato",
-  "homepage": "https://efremropelato.github.io/",
-  "copyright": "Copyright (c) 2019 Efrem Ropelato",
-  "license": "MIT",
+  "version": "1.0.1",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/efremropelato/cesium-coreui-react.git"
-  },
   "dependencies": {
     "@babel/core": "7.4.3",
     "@coreui/coreui": "^2.1.12",
@@ -107,7 +98,7 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.12.4",
-    "eslint-plugin-react-hooks": "^1.5.0",
+    "eslint-plugin-react-hooks": "^1.5.0"
   },
   "scripts": {
     "start": "NODE_OPTIONS='--max-old-space-size=4096' node scripts/start.js",
@@ -115,9 +106,6 @@
     "test": "node scripts/test.js",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand"
-  },
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
   "eslintConfig": {
     "extends": "react-app"

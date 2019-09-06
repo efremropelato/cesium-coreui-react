@@ -1,24 +1,25 @@
 {
   "name": "cesium-coreui-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo template with Cesiumjs, Coreui & Reactjs",
+  "author": "Efrem Ropelato",
+  "homepage": "https://efremropelato.github.io/",
+  "copyright": "Copyright (c) 2019 Efrem Ropelato",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efremropelato/cesium-coreui-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efremropelato/cesium-coreui-react/issues"
+  },
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "devclient": "cd ./frontend && npm start",
     "devserver": "cd ./backend && npm start",
     "start": "concurrently \"npm run devclient\" \"npm run devserver\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/efremropelato/cesium-coreui-react.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/efremropelato/cesium-coreui-react/issues"
-  },
-  "homepage": "https://github.com/efremropelato/cesium-coreui-react#readme",
   "dependencies": {
     "concurrently": "^4.1.2"
   }
