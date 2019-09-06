@@ -1,15 +1,15 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
+  "name": "cesium-coreui-react",
   "version": "2.6.0",
-  "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
-  "author": "Łukasz Holeczek",
-  "homepage": "https://coreui.io",
-  "copyright": "Copyright 2017-2019 creativeLabs Łukasz Holeczek",
+  "description": "Demo template with Cesiumjs, Coreui & Reactjs",
+  "author": "Efrem Ropelato",
+  "homepage": "https://efremropelato.github.io/",
+  "copyright": "Copyright (c) 2019 Efrem Ropelato",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+    "url": "https://github.com/efremropelato/cesium-coreui-react.git"
   },
   "dependencies": {
     "@babel/core": "7.4.3",
