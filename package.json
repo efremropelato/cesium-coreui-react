@@ -13,7 +13,15 @@
   "bugs": {
     "url": "https://github.com/efremropelato/cesium-coreui-react/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "cesiumjs",
+    "reactjs",
+    "coreui",
+    "demo",
+    "demography",
+    "pivottable",
+    "plotlyjs"
+  ],
   "main": "index.js",
   "scripts": {
     "devclient": "cd ./frontend && npm start",
