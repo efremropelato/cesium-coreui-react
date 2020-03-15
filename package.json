@@ -24,6 +24,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "postinstall": "concurrently \"cd ./frontend && npm i\" \"cd ./backend  && npm i\"",
     "devclient": "cd ./frontend && npm start",
     "devserver": "cd ./backend && npm start",
     "start": "concurrently \"npm run devclient\" \"npm run devserver\""
