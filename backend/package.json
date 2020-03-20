@@ -29,6 +29,6 @@
     "eslint": "4.19.1",
     "eslint-config-loopback": "8.0.0",
     "swagger-ui": "3.25.0",
-    "minimist": ">=1.2.2"
+    "minimist": "1.2.2"
   }
 }
