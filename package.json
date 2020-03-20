@@ -30,6 +30,6 @@
     "start": "concurrently \"npm run devclient\" \"npm run devserver\""
   },
   "dependencies": {
-    "concurrently": "^4.1.2"
+    "concurrently": "^5.0.0"
   }
 }
