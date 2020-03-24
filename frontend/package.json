@@ -30,7 +30,7 @@
     "html-webpack-plugin": "4.0.1",
     "fs-extra": "9.0.0",
     "identity-obj-proxy": "3.0.0",
-    "is-wsl": "1.1.0",
+    "is-wsl": "2.1.1",
     "jest": "25.1.0",
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.9.0",
