@@ -28,7 +28,7 @@
     "flag-icon-css": "3.4.6",
     "font-awesome": "4.7.0",
     "fs-extra": "7.0.1",
-    "html-webpack-plugin": "4.0.0-beta.14",
+    "html-webpack-plugin": "4.0.1",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "1.1.0",
     "jest": "25.1.0",
