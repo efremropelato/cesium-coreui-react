@@ -11,7 +11,7 @@
     "@svgr/webpack": "5.3.0",
     "@typescript-eslint/eslint-plugin": "2.25.0",
     "@typescript-eslint/parser": "2.25.0",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "bootstrap": "4.4.1",
     "camelcase": "5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
